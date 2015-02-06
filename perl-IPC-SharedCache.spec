@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	4
 Summary:	Manage a cache in SysV IPC shared memory
 License:	GPL or Artistic
 Group:		Development/Perl
