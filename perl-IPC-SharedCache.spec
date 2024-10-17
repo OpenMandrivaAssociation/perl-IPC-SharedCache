@@ -7,7 +7,7 @@ Release:	4
 Summary:	Manage a cache in SysV IPC shared memory
 License:	GPL or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source:		http://www.cpan.org/modules/by-module/IPC/%{upstream_name}-%{upstream_version}.tar.gz
 Patch:		0001-Wrap-IPC-ShareLite-new-calls-inside-eval-block.patch 
 
