@@ -2,13 +2,13 @@
 %define upstream_version    1.3
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	5
 Summary:	Manage a cache in SysV IPC shared memory
 License:	GPL or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source:		http://www.cpan.org/modules/by-module/IPC/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/IPC-SharedCache
+Source:		https://cpan.metacpan.org/authors/id/S/SA/SAMTREGAR/IPC-SharedCache-%{upstream_version}.tar.gz
 Patch:		0001-Wrap-IPC-ShareLite-new-calls-inside-eval-block.patch 
 
 BuildRequires:	make
