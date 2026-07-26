@@ -1,14 +1,12 @@
 %define upstream_name       IPC-SharedCache
-%define upstream_version    1.3
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	5
+Version:	1.3
+Release:	6
 Summary:	Manage a cache in SysV IPC shared memory
 License:	GPL or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/IPC-SharedCache
-Source:		https://cpan.metacpan.org/authors/id/S/SA/SAMTREGAR/IPC-SharedCache-%{upstream_version}.tar.gz
+Source:		https://cpan.metacpan.org/authors/id/S/SA/SAMTREGAR/IPC-SharedCache-%{version}.tar.gz
 Patch:		0001-Wrap-IPC-ShareLite-new-calls-inside-eval-block.patch 
 
 BuildRequires:	make
@@ -21,7 +19,7 @@ BuildArch:	noarch
 This module provides a shared memory cache accessed as a tied hash.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version} 
+%setup -q -n %{upstream_name}-%{version} 
 %patch -p1
 
 %build
